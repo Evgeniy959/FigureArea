@@ -14,9 +14,9 @@ namespace FigureArea.HandleTest
             Console.WriteLine(figure.GetFigureInfo("asdf", 55));
 
             // ArgumentException
-            Console.WriteLine(figure.GetFigureInfo("triangle", 0, 40, 50));
+            /*Console.WriteLine(figure.GetFigureInfo("triangle", 0, 40, 50));
             Console.WriteLine(figure.GetFigureInfo("triangle", 60, 40, 120));
-            Console.WriteLine(figure.GetFigureInfo("circle", 0));
+            Console.WriteLine(figure.GetFigureInfo("circle", 0));*/
             
         }
     }
