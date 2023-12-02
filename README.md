@@ -25,7 +25,5 @@ FigureArea - C# библиотека для фигур. Для ее реализ
 
 SELECT Products.name, Categorys.name
 FROM Products_Categorys
-
 LEFT JOIN Products ON Products_Categorys.product_id = Products.id
-
 LEFT JOIN Categorys ON Products_Categorys.category_id = Categorys.id;
